@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077D59011AEA197A0003B322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D59001AEA197A0003B322 /* AppDelegate.swift */; };
+		077D59041AEA197A0003B322 /* _____iWatch__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 077D59021AEA197A0003B322 /* _____iWatch__.xcdatamodeld */; };
+		077D59061AEA197A0003B322 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D59051AEA197A0003B322 /* ViewController.swift */; };
+		077D59091AEA197A0003B322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077D59071AEA197A0003B322 /* Main.storyboard */; };
+		077D590B1AEA197A0003B322 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077D590A1AEA197A0003B322 /* Images.xcassets */; };
+		077D590E1AEA197A0003B322 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077D590C1AEA197A0003B322 /* LaunchScreen.xib */; };
+		077D591A1AEA197A0003B322 /* _____iWatch__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D59191AEA197A0003B322 /* _____iWatch__Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077D59141AEA197A0003B322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077D58F31AEA197A0003B322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077D58FA1AEA197A0003B322;
+			remoteInfo = "剪刀手头布iWatch游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077D58FB1AEA197A0003B322 /* 剪刀手头布iWatch游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "剪刀手头布iWatch游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		077D58FF1AEA197A0003B322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077D59001AEA197A0003B322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		077D59031AEA197A0003B322 /* _____iWatch__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____iWatch__.xcdatamodel"; sourceTree = "<group>"; };
+		077D59051AEA197A0003B322 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		077D59081AEA197A0003B322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077D590A1AEA197A0003B322 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		077D590D1AEA197A0003B322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		077D59131AEA197A0003B322 /* 剪刀手头布iWatch游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "剪刀手头布iWatch游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		077D59181AEA197A0003B322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077D59191AEA197A0003B322 /* _____iWatch__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____iWatch__Tests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077D58F81AEA197A0003B322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077D59101AEA197A0003B322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077D58F21AEA197A0003B322 = {
+			isa = PBXGroup;
+			children = (
+				077D58FD1AEA197A0003B322 /* 剪刀手头布iWatch游戏 */,
+				077D59161AEA197A0003B322 /* 剪刀手头布iWatch游戏Tests */,
+				077D58FC1AEA197A0003B322 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077D58FC1AEA197A0003B322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077D58FB1AEA197A0003B322 /* 剪刀手头布iWatch游戏.app */,
+				077D59131AEA197A0003B322 /* 剪刀手头布iWatch游戏Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077D58FD1AEA197A0003B322 /* 剪刀手头布iWatch游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				077D59001AEA197A0003B322 /* AppDelegate.swift */,
+				077D59051AEA197A0003B322 /* ViewController.swift */,
+				077D59071AEA197A0003B322 /* Main.storyboard */,
+				077D590A1AEA197A0003B322 /* Images.xcassets */,
+				077D590C1AEA197A0003B322 /* LaunchScreen.xib */,
+				077D59021AEA197A0003B322 /* _____iWatch__.xcdatamodeld */,
+				077D58FE1AEA197A0003B322 /* Supporting Files */,
+			);
+			path = "剪刀手头布iWatch游戏";
+			sourceTree = "<group>";
+		};
+		077D58FE1AEA197A0003B322 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				077D58FF1AEA197A0003B322 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		077D59161AEA197A0003B322 /* 剪刀手头布iWatch游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				077D59191AEA197A0003B322 /* _____iWatch__Tests.swift */,
+				077D59171AEA197A0003B322 /* Supporting Files */,
+			);
+			path = "剪刀手头布iWatch游戏Tests";
+			sourceTree = "<group>";
+		};
+		077D59171AEA197A0003B322 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				077D59181AEA197A0003B322 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077D58FA1AEA197A0003B322 /* 剪刀手头布iWatch游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077D591D1AEA197A0003B322 /* Build configuration list for PBXNativeTarget "剪刀手头布iWatch游戏" */;
+			buildPhases = (
+				077D58F71AEA197A0003B322 /* Sources */,
+				077D58F81AEA197A0003B322 /* Frameworks */,
+				077D58F91AEA197A0003B322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "剪刀手头布iWatch游戏";
+			productName = "剪刀手头布iWatch游戏";
+			productReference = 077D58FB1AEA197A0003B322 /* 剪刀手头布iWatch游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077D59121AEA197A0003B322 /* 剪刀手头布iWatch游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077D59201AEA197A0003B322 /* Build configuration list for PBXNativeTarget "剪刀手头布iWatch游戏Tests" */;
+			buildPhases = (
+				077D590F1AEA197A0003B322 /* Sources */,
+				077D59101AEA197A0003B322 /* Frameworks */,
+				077D59111AEA197A0003B322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077D59151AEA197A0003B322 /* PBXTargetDependency */,
+			);
+			name = "剪刀手头布iWatch游戏Tests";
+			productName = "剪刀手头布iWatch游戏Tests";
+			productReference = 077D59131AEA197A0003B322 /* 剪刀手头布iWatch游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077D58F31AEA197A0003B322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Glacier;
+				TargetAttributes = {
+					077D58FA1AEA197A0003B322 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					077D59121AEA197A0003B322 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 077D58FA1AEA197A0003B322;
+					};
+				};
+			};
+			buildConfigurationList = 077D58F61AEA197A0003B322 /* Build configuration list for PBXProject "剪刀手头布iWatch游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077D58F21AEA197A0003B322;
+			productRefGroup = 077D58FC1AEA197A0003B322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077D58FA1AEA197A0003B322 /* 剪刀手头布iWatch游戏 */,
+				077D59121AEA197A0003B322 /* 剪刀手头布iWatch游戏Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077D58F91AEA197A0003B322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077D59091AEA197A0003B322 /* Main.storyboard in Resources */,
+				077D590E1AEA197A0003B322 /* LaunchScreen.xib in Resources */,
+				077D590B1AEA197A0003B322 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077D59111AEA197A0003B322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077D58F71AEA197A0003B322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077D59061AEA197A0003B322 /* ViewController.swift in Sources */,
+				077D59011AEA197A0003B322 /* AppDelegate.swift in Sources */,
+				077D59041AEA197A0003B322 /* _____iWatch__.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077D590F1AEA197A0003B322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077D591A1AEA197A0003B322 /* _____iWatch__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077D59151AEA197A0003B322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077D58FA1AEA197A0003B322 /* 剪刀手头布iWatch游戏 */;
+			targetProxy = 077D59141AEA197A0003B322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077D59071AEA197A0003B322 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077D59081AEA197A0003B322 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077D590C1AEA197A0003B322 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077D590D1AEA197A0003B322 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077D591B1AEA197A0003B322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		077D591C1AEA197A0003B322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077D591E1AEA197A0003B322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "剪刀手头布iWatch游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		077D591F1AEA197A0003B322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "剪刀手头布iWatch游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		077D59211AEA197A0003B322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "剪刀手头布iWatch游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/剪刀手头布iWatch游戏.app/剪刀手头布iWatch游戏";
+			};
+			name = Debug;
+		};
+		077D59221AEA197A0003B322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "剪刀手头布iWatch游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/剪刀手头布iWatch游戏.app/剪刀手头布iWatch游戏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077D58F61AEA197A0003B322 /* Build configuration list for PBXProject "剪刀手头布iWatch游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077D591B1AEA197A0003B322 /* Debug */,
+				077D591C1AEA197A0003B322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077D591D1AEA197A0003B322 /* Build configuration list for PBXNativeTarget "剪刀手头布iWatch游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077D591E1AEA197A0003B322 /* Debug */,
+				077D591F1AEA197A0003B322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		077D59201AEA197A0003B322 /* Build configuration list for PBXNativeTarget "剪刀手头布iWatch游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077D59211AEA197A0003B322 /* Debug */,
+				077D59221AEA197A0003B322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		077D59021AEA197A0003B322 /* _____iWatch__.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				077D59031AEA197A0003B322 /* _____iWatch__.xcdatamodel */,
+			);
+			currentVersion = 077D59031AEA197A0003B322 /* _____iWatch__.xcdatamodel */;
+			path = "_____iWatch__.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 077D58F31AEA197A0003B322 /* Project object */;
+}
